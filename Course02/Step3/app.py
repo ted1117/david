@@ -6,7 +6,8 @@ app = Flask(__name__)
 
 
 @app.route('/')
-def index():
+def home():
+    assert 1 < 0, 'error'
     if app.debug:
         hostname = '컴퓨터(인스턴스):' + socket.gethostname()
     else:
@@ -15,4 +16,5 @@ def index():
 
 
 if __name__ == '__main__':
+    print(__debug__)
     app.run(host='0.0.0.0', port=8080, debug=True)

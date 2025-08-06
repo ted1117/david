@@ -15,11 +15,6 @@ def home():
     return render_template('index.html', computername=hostname)
 
 
-@app.route('/test1')
-def test1():
-    return render_template('test1.html')
-
-
 @app.route('/test2')
 def test2():
     return render_template('test2.html')

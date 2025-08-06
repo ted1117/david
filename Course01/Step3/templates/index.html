@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hostname</title>
+    <style>
+      @import url("https://rsms.me/inter/inter.css");
+      html {
+        font-family: "Inter", sans-serif;
+      }
+
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+
+        background-color: #f7f7f7;
+      }
+
+      .content {
+        text-align: center;
+      }
+
+      .label {
+        color: #999;
+        font-size: 14px;
+        font-weight: 500;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        margin-bottom: 8px;
+      }
+
+      .hostname {
+        color: #222;
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 1.2;
+        margin: 0;
+        word-wrap: break-word;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="content">
+      <p class="label">Hostname</p>
+      <h1 class="hostname">{{ computername }}</h1>
+    </div>
+  </body>
+</html>

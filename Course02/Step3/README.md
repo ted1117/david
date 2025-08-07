@@ -8,4 +8,4 @@
   gTTS(text, "com", lang).write_to_fp(fp)
   encoded_audio_data = base64.b64encode(fp.getvalue())
   ```
-- david.jpg 파일을 이미지로 삽입한다.
+- ![가능한!](../../assets/david.jpg)

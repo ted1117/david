@@ -4,6 +4,10 @@
 2. 충돌
 3. resolve 후 push
 
+## 상황
+1. 로컬에서 test1 추가 [커밋](https://github.com/ted1117/david/commit/37adebcf32a0a4f2d1b030d70573741517a610a2)
+2. 원격에서 test2 추가 [커밋](https://github.com/ted1117/david/commit/570bf40584a06baa7ddfebfda6d89c51736667b5)
+
 ## 해결
 1. git pull 충돌
 ```bash
